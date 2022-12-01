@@ -9,11 +9,11 @@ const client = new Discord.Client({
         Discord.GatewayIntentBits.MessageContent,
 		Discord.GatewayIntentBits.GuildMessageReactions
     ],
-	partials: [
-	    Discord.Partials.Message, 
-		Discord.Partials.Channel, 
-		Discord.Partials.Reaction
-	]
+    partials: [
+        Discord.Partials.Message, 
+        Discord.Partials.Channel, 
+	Discord.Partials.Reaction
+    ]
 })
 const fs = require('fs')
 const config = require('./config.json')
