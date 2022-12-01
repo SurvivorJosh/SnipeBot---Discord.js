@@ -6,6 +6,7 @@ A Snipebot made with the discord.js library that can snipe unlimited messages in
 1. Installations
 2. Running Bot
 3. Discord.js and more
+4. To Do
 
 ## Installations
 - Install discord.js: `npm i discord.js`
@@ -28,9 +29,10 @@ then on console type `node index.js`
 
 ## Discord.js and more
 
-Read the [Discord.js Docs](https://discord.js.org/#/)
+- Read the [Discord.js Docs](https://discord.js.org/#/)
+- In this repository I used discord.js `messageDelete`, `messageReactionRemove`and `messageUpdate` events and by using discord.js [Collections](https://discord.js.org/#/docs/discord.js/main/search?query=collections) I was able to store all the deleted messages.
 
- **To Do:**
-   Add more commands,
-   If a message has embed, snipe the embed description
+## To Do:
+1. Add more commands,
+2. If a message has embed, snipe the embed description
    
