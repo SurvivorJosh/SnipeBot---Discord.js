@@ -8,8 +8,8 @@ A Snipebot made with the discord.js library that can snipe unlimited messages in
 3. Discord.js and more
 
 ## Installations
-Install discord.js: `npm i discord.js`
-Install moment: `npm i moment`
+- Install discord.js: `npm i discord.js`
+- Install moment: `npm i moment`
 
 ---
 > Make sure you have all intents turned on for your bot on 
@@ -20,7 +20,7 @@ discord developer portal.
 ```JSON
 {
     "prefix": "your prefix",
-	"token": "your bot token"
+    "token": "your bot token"
 }
 ```
 Paste your prefix and bot token
